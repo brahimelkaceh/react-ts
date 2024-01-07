@@ -29,7 +29,7 @@ const App = () => {
   return (
     <main>
       <Header image={{ src: logo, alt: "this is course goals logo" }}>
-        <h1>Your Course Goals V1</h1>
+        <h1>Your Course Goals V2</h1>
       </Header>
       <NewGoal onAddGoal={handleAddGoals} />
       <CourseGoalsList goals={goals} onDeleteGoal={handleDeleteGoal} />
